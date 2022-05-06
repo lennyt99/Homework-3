@@ -39,7 +39,7 @@ for index in df.index:
      section_10k_item7 = extractorApi.get_section(filing_url, "7", "text")
      Final_10k.append(section_10k_item7)
      
-#with open('C:\\Users\\mail2\\OneDrive\\School\\Data Analysis\\10K\\TSLA_10k_item7.txt', 'w') as f:
+#with open('C:\\Users\\ltellez\\OneDrive\\School\\Data Analysis\\10K\\TSLA_10k_item7.txt', 'w') as f:
 #    for item in Final_10k:
 #        f.write(item)
         
